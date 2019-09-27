@@ -19,7 +19,7 @@ public class Invoice implements IBaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long  id;
     @CreationTimestamp
     @Column()
     private LocalDateTime dateOfCreation;
